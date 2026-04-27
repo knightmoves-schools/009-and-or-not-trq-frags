@@ -1,4 +1,4 @@
 -- Add your SQL here
-SELECT * FROM EXPLOYEE
+SELECT * FROM Employee
 WHERE SALARY < 1700
-AND (TOWN = 'Atlanta' OR TOWN = 'Nashville');
+AND (LOCATION = 'Atlanta' OR LOCATION = 'Nashville');
